@@ -1,0 +1,31 @@
+
+<form id="736243039">
+<property name="name" value="MostrarUsuario-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="persona_direccion" type="InputText" id="1622645920">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;direccion (persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persona/direccion"/>
+<property name="outputBinding" value="persona/direccion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="persona_nombre" type="InputText" id="2086091052">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persona/nombre"/>
+<property name="outputBinding" value="persona/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="persona_id" type="InputTextLong" id="1882500091">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persona/id"/>
+<property name="outputBinding" value="persona/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="persona" name="#E9E371" type="dataModelerEntry" outId="persona" value="ec.edu.ucuenca.prueba.Persona" id="persona"/>
+</form>
